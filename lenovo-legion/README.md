@@ -26,7 +26,7 @@ Some more info on `snd-hda` patch files can be found [here](https://www.kernel.o
 You can apply the hda verbs and test the sound on speakers. Here's how:
 
 - Download the [verbs-working.txt](verbs-working.txt) ([source](https://bugzilla.kernel.org/show_bug.cgi?id=208555#c206)).
-- Install the `alsa-tools`. For Ubuntu, `sudo apt install alsa-tools`.
+- Install the `alsa-tools`. For Ubuntu 20.04, `sudo apt install alsa-tools`.
 - `git clone https://github.com/ryanprescott/realtek-verb-tools`
 - `sudo python3 realtek-verb-tools/applyverbs.py verbs-working.txt`
 - Put some audio to play
