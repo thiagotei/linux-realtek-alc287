@@ -29,7 +29,10 @@ You can apply the hda verbs and test the sound on speakers. Here's how:
 - Install the `alsa-tools`. For Ubuntu 20.04, `sudo apt install alsa-tools`.
 - `git clone https://github.com/ryanprescott/realtek-verb-tools`
 - `sudo python3 realtek-verb-tools/applyverbs.py verbs-working.txt`
-- Put some audio to play
+- Put some audio to play.
+
+Putting the laptop to sleep and resuming results in non-working speakers. You will need to re-apply these verbs.
+It's also possible that if your laptop stays on but is idle that the speakers will go to sleep and will need to be re-initialized in that case too.
 
 ## Finding the verbs
 
