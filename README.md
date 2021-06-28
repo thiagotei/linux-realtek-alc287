@@ -1,2 +1,3 @@
-# linux-realtek-alc287
-Solutions for sound issues in Linux for Realtek ALC287
+# Realtek ALC287 in Linux
+
+Solutions for sound issues for Realtek ALC287 in Linux.
