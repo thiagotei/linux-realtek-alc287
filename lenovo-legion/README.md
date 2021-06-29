@@ -23,7 +23,7 @@ Some more info on `snd-hda` patch files can be found [here](https://www.kernel.o
 
 Tested on Ubuntu 20.04.2 Kernel 5.8.0-55.
 
-### Alternative 2
+### Alternative 1
 
 You can apply the hda verbs and test the sound on the speakers. This is a stopgap solution that is much more useful for
 debugging. For example, your speakers will stop working after a while as they will switch off to save power and the
@@ -39,6 +39,11 @@ Here's how to apply the verbs to enable sound on the speakers::
 
 Putting the laptop to sleep and resuming results in non-working speakers. You will need to re-apply these verbs.
 It's also possible that if your laptop stays on but is idle that the speakers will go to sleep and will need to be re-initialized in that case too.
+
+### Alternative 2
+
+Patch the kernel source code. 
+(Add instructions and kernel patch examples.)
 
 ## Finding the verbs
 
