@@ -1,6 +1,6 @@
 # Lenovo Legion 7
 
-Credit to Cameron Berkenpas (cam@neo-zeon.de) and you can find the original post [here](https://bugzilla.kernel.org/show_bug.cgi?id=208555#c294).
+Credit to Cameron Berkenpas (cam@neo-zeon.de) and [sycxyc](https://bugzilla.kernel.org/show_bug.cgi?id=208555#c277). You can find the original post [here](https://bugzilla.kernel.org/show_bug.cgi?id=208555#c294).
 
 The sound speakers for Linux in Lenovo Legion 7 15IMH05 and 15IMHG05 can be fixed by adding a patch for `snd-hda`.
 Here's how:
@@ -20,6 +20,8 @@ options snd-hda-intel patch=legion-alc287.patch
 
 If necessary, you can remove `/etc/modprobe.d/lenovo-fix.conf` and reboot to disable the patch.
 Some more info on `snd-hda` patch files can be found [here](https://www.kernel.org/doc/html/latest/sound/hd-audio/notes.html) for those wanting to experiment.
+
+Tested on Ubuntu 20.04.2 Kernel 5.8.0-55.
 
 ### Alternative 2
 
