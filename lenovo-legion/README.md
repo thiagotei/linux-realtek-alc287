@@ -23,9 +23,13 @@ Some more info on `snd-hda` patch files can be found [here](https://www.kernel.o
 
 ### Alternative 2
 
-You can apply the hda verbs and test the sound on speakers. Here's how:
+You can apply the hda verbs and test the sound on the speakers. This is a stopgap solution that is much more useful for
+debugging. For example, your speakers will stop working after a while as they will switch off to save power and the
+snd-hda-intel driver will not know how to re-initialize the speakers. At this point, you will need to re-apply the verbs.
 
-- Download the [verbs-working.txt](verbs-working.txt) ([source](https://bugzilla.kernel.org/show_bug.cgi?id=208555#c206)).
+Here's how to apply the verbs to enable sound on the speakers::
+
+- Download [verbs-legion.txt](verbs-legion.txt) (with much credit going to [sycxyc](https://bugzilla.kernel.org/show_bug.cgi?id=208555#c277) for narrowing the verbs down).
 - Install the `alsa-tools`. For Ubuntu 20.04, `sudo apt install alsa-tools`.
 - `git clone https://github.com/ryanprescott/realtek-verb-tools`
 - `sudo python3 realtek-verb-tools/applyverbs.py verbs-working.txt`
