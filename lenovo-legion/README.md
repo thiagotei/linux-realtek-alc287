@@ -5,7 +5,7 @@ Credit to Cameron Berkenpas (cam@neo-zeon.de) and you can find the original post
 The sound speakers for Linux in Lenovo Legion 7 15IMH05 and 15IMHG05 can be fixed by adding a patch for `snd-hda`.
 Here's how:
 
-1. Download the [legion-alc287-0.0.5.patch](legion-alc287-0.0.5.patch).
+1. Download the [legion-alc287-0.0.5.patch](https://raw.githubusercontent.com/thiagotei/linux-realtek-alc287/main/lenovo-legion/legion-alc287-0.0.5.patch).
 2. Copy it to `/lib/firmware/legion-alc287.patch`
       * `sudo cp legion-alc287-0.0.5.patch /lib/firmware/legion-alc287.patch`
 3. Create/open `/etc/modprobe.d/lenovo-fix.conf` in your favorite text editor.
