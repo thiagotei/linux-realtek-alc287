@@ -5,4 +5,4 @@ Credit to Cameron Berkenpas (cam@neo-zeon.de) for producing the solutions.
 Click [here](https://bugzilla.kernel.org/show_bug.cgi?id=208555) for the original posts.
 
 Instructions for each machine:
-* [Legion Legion 7](lenovo-legion)
+* [Lenovo Legion 7](lenovo-legion)
