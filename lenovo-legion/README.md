@@ -1,4 +1,4 @@
-# Lenovo Legion 7
+# Lenovo Legion 7 2020
 
 Credit to Cameron Berkenpas (cam@neo-zeon.de) and [sycxyc](https://bugzilla.kernel.org/show_bug.cgi?id=208555#c277). You can find the original post [here](https://bugzilla.kernel.org/show_bug.cgi?id=208555#c294).
 
