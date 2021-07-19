@@ -34,7 +34,7 @@ Here's how to apply the verbs to enable sound on the speakers::
 - Download [verbs-legion.txt](verbs-legion.txt) (with much credit going to [sycxyc](https://bugzilla.kernel.org/show_bug.cgi?id=208555#c277) for narrowing the verbs down).
 - Install the `alsa-tools`. For Ubuntu 20.04, `sudo apt install alsa-tools`.
 - `git clone https://github.com/ryanprescott/realtek-verb-tools`
-- `sudo python3 realtek-verb-tools/applyverbs.py verbs-working.txt`
+- `sudo python3 realtek-verb-tools/applyverbs.py verbs-legion.txt`
 - Put some audio to play.
 
 Putting the laptop to sleep and resuming results in non-working speakers. You will need to re-apply these verbs.
