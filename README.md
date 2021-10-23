@@ -1,13 +1,8 @@
 # Find your laptop's Intel HDA verb initialization sequence
 
-Some laptops can have their speaker output enabled through an Intel HDA verb initialization sequence. You can use PCI
-passthrough to pass your sound device through to a Windows VM to capture the verbs sent to the sound hardware and from
-there determine what sequence is needed to enable audio output through your speakers in Linux. This sequence could also
-be used for other operating systems as well.
+Some laptops can have their speaker output enabled through an Intel HDA verb initialization sequence. You can use PCI passthrough to pass your sound device through to a Windows VM to capture the verbs sent to the sound hardware and from there determine what sequence is needed to enable audio output through your speakers in Linux. This sequence could also be used for other operating systems as well.
 
-However, not all laptops use an Intel HDA verb sequence to enable sound. We're starting to see laptops that use
-amplifier chips that must be initialized over the i2c bus. Such amp chips will also likely require firmware. This
-document cannot help with those cases (I'm looking at you Lenovo Legion 7i 16ITHg6 and Legion 7 16ACHg6).
+However, not all laptops use an Intel HDA verb sequence to enable sound. We're starting to see laptops that use amplifier chips that must be initialized over the i2c bus. Such amp chips will also likely require firmware. This document cannot help with those cases (I'm looking at you Lenovo Legion 7i 16ITHg6 and Legion 7 16ACHg6).
 
 ## Finding the verbs
 
