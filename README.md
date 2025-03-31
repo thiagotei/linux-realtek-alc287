@@ -6,3 +6,4 @@ Click [here](https://bugzilla.kernel.org/show_bug.cgi?id=208555) for the origina
 
 Instructions for each machine:
 * [Lenovo Legion 7](lenovo-legion)
+* [Lenovo Yoga 7 (16IAH7)](lenovo-yoga7)
